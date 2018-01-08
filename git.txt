@@ -26,3 +26,37 @@
   517  git checkout master
   518  git init
   519  history | grep git >> git.txt
+  450  cd src/git-1.6.4.2
+  457  cd .git
+  471  git init
+  473  git config --list
+  476  mv git_repo/pkg_set_stats_ddl.sql AKOB/
+  477  mv git_repo/DONOTREADME.md AKOB/
+  480  git init
+  481  git commit 
+  482  git commit -m "test"
+  486  history | grep git
+  489  grep * git
+  490  grep git *
+  492  git
+  493  git-shell 
+  494  lkp git
+  500  history | grep git
+  502  history | grep git > git.txt
+  507  git status
+  508  git config --list
+  510  git pull
+  512  git branch
+  513  git branch lancelot
+  514  git checkput lancelot
+  515  git checkout lancelot
+  516  git branch 
+  517  git checkout master
+  518  git init
+  519  history | grep git >> git.txt
+  520  cat git.txt 
+ touch kkk.txt
+  523  git add .
+  524  git commit -m "appended kkk"
+  525  git push origin master
+  526  history | grep git >> git.txt
